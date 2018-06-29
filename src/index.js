@@ -1,5 +1,8 @@
 import _ from 'lodash';
-import './style.css';
+import './excel.png';
+import Icon from './excel.png';
+import Data from './data.xml';
+import eData from './4e UPLOAD.csv';
 
 /**
  * Creare a new div with text in it
@@ -11,6 +14,12 @@ function component() {
     // Lodash, now imported by this script
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     element.classList.add('hello');
+
+    var myIcon = new Image();
+    myIcon.src = Icon;
+
+    element.appendChild(myIcon);
+    console.log(eData);
 
     return element;
 }

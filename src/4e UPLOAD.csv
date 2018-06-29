@@ -1,0 +1,62 @@
+Name,UPI,picNo,fetchLearnerForm,UPIexist,isformfilled,missingData,picUploadStatus
+BONIFACE MAINA,,00006,,,,,
+CATHERINE NJERI,,00007,,,,,
+ELIZABETH MUMBI,,00015,,,,,
+ESTHER WAMBUI,,00018,,,,,
+JEHU ADIEL GITHIRE,,00028,,,,,
+JOHN NJENGA,,00031,,,,,
+SAMUEL NJAU,,00048,,,,,
+TIMOTHY KINANI,,00058,,,,,
+JIAN NJONGE,,00063,,,,,
+ALVIN NJONJO,CKMXPQ,00002,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+ANITA NJERI,436CTM,00003,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+"ANTONY NYIKANG'O",21835Y,00004,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+ALVAN MUIRURI,E83UCZ,00001,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+JOHN WAWERU,754SZS,00032,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+FAITH MUTHONI,VXNCJU,00019,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+"ELIUD NG'ANG'A",KDRG3Z,00014,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+CYNTHIA WANGARI,CPCKZZ,00010,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+JOHN MWANGI,388KXE,00030,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+MICHELLE WANGARI,453ZFN,00042,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+CLARA WAMBUI ,878STG,00008,success,yes,yes,"MotherUPI,FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+KEVIN MWANGI,4BZZM9,00034,success,yes,yes,"MotherUPI,FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+JESSE MAINA,258XMN,00029,success,yes,yes,"FatherIDNO,FatherName,FatherUPI,FatherContacts,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+DENNIS KINYANJUI,532BGX,00011,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+LOISE WANGUI,PYU932,00037,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+HOPE NYAGUTHII,987TTY,00025,success,yes,yes,"FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+HARRISON NJOROGE,N3C782,00021,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+CYNTHIA WAIRIMU,5DPNCC,00009,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+"ERIC NJUNG'E",826ZPP,00017,success,yes,yes,"MotherIDNo,MotherName,MotherUPI,MothersContacts,FatherIDNO,FatherUPI,GuardianUPI",success
+LUCY WAMBUI,764XFJ,00038,success,yes,yes,"FatherIDNO,FatherUPI,FatherContacts,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+BETTY KENZI,898PMR,00005,success,yes,yes,"FatherIDNO,FatherName,FatherUPI,FatherContacts,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+ROSE WANJIKU,GKJ5AW,00046,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+STEPHEN NJUGUNA,NKS6PX,00056,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+SHEILA WANGARI,PHQ4E1,00051,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+STAICY WANJIRU,237ZZJ,00054,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+SHIRLYNE WANGARI,N4Z8YJ,00052,success,yes,yes,"FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+SERENA NJERI,723XZZ,00050,success,yes,yes,"FatherIDNO,FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+EMMANUEL KARIUKI,EQU87T,00016,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+JOY MUKAMI,V8CEDG,00033,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+SAMUEL WACHIRA,6RMJ52,00049,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+JAMES MAINA,VXW3PV,00026,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+SIMON NJOROGE,8BVWSM,00053,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+TRACY WAMBUKU,334JKJ,00059,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+WILLIAM MUHORO,R5APZE,00062,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+LINET WAITHERA,544JXH,00036,success,yes,yes,"FatherIDNO,FatherName,FatherUPI,FatherContacts,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+"LEWIS KANG'ETHE",C6EE1H,00035,success,yes,yes,"MotherUPI,FatherIDNO,FatherName,FatherUPI,FatherContacts,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+MYLES RIC KEREMA,743SUS,00043,success,yes,yes,"FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+PETER KINYUA,9DXA1V,00045,success,yes,yes,"MotherUPI,FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+FEDELIS NDUKU,QCDCZP,00020,success,yes,yes,"FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+"STANLEY KUNG'U",446HZE,00055,success,yes,yes,"FatherIDNO,FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+MELVIN MBURU,PSQNB6,00040,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+MARK RYAN NDICHU,N31NMR,00039,success,yes,yes,"FatherIDNO,FatherName,FatherUPI,FatherContacts,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+VICTOR KANGORI,B1VQWF,00060,success,yes,yes,"FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+JAMES NJOGU,DATR49,00027,success,yes,yes,"MotherUPI,FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+DENNIS NJAU,339HXZ,00012,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+HEZRON OLOO,T4DZ1R,00022,success,yes,yes,"MotherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+MERCY JOY NJERI,FU3MTZ,00041,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+NANCY NJERI,Y3WVW3,00044,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+SUSAN WAMBUI,WZYWS6,00057,success,yes,yes,"FatherIDNO,FatherName,FatherUPI,FatherContacts,GuardianUPI",success
+RYAN NGUGI,449YJR,00047,success,yes,yes,"MotherUPI,FatherUPI,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+VIVIANNE WAHU,427DYX,00061,success,yes,yes,"GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
+DONALD MUIRURI,2CMBUJ,00013,success,yes,yes,"MotherUPI,FatherContacts,GuardianIDNO,Guardianname,GuardianUPI,Guardiancontacts",success
