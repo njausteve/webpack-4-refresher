@@ -1,8 +1,5 @@
 import _ from 'lodash';
-import './excel.png';
-import Icon from './excel.png';
-import Data from './data.xml';
-import eData from './4e UPLOAD.csv';
+import printMe from './print';
 
 /**
  * Creare a new div with text in it
@@ -11,15 +8,16 @@ import eData from './4e UPLOAD.csv';
  */
 function component() {
     var element = document.createElement('div');
+    var btn = document.createElement('button');
     // Lodash, now imported by this script
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     element.classList.add('hello');
 
-    var myIcon = new Image();
-    myIcon.src = Icon;
+    btn.innerHTML = 'Click me and check console';
+    btn.onclick = printMe;
 
-    element.appendChild(myIcon);
-    console.log(eData);
+    element.appendChild(btn);
+
 
     return element;
 }

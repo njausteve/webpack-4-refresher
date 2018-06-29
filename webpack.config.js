@@ -1,49 +1,19 @@
 const path = require('path');
+const HtnlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
 
-    entry: './src/index.js',
-    output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+    entry: {
+        app: './src/index.js',
+        print: './src/print.js'
     },
-    module: {
-        rules: [{
-                test: /\.css$/,
-                use: [
-                    'style-loader',
-                    'css-loader'
-                ]
-            }, {
-                test: /\.(gif|png|jpe?g|svg)$/i,
-
-                use: ['file-loader']
-
-            }, {
-
-                test: /\.(eot|otf|webp|ttf|woff|woff2)(\?.*)?$/,
-                use: [{
-                    loader: "file-loader",
-                    options: {
-                        name: "[name].[hash].[ext]",
-                        publicPath: "/",
-                        outputPath: "assets/font/",
-                    }
-                }]
-            },{
-
-                test: /\.(csv|tsv)$/,
-                use:[
-                    'csv-loader'
-                ]
-            },{
-                test: /\.xml$/,
-                use: [
-                    'xml-loader'
-                ]
-            }
-
-        ]
+    plugins: [
+        new CleanWebpackPlugin(['dist']),
+        new HtnlWebpackPlugin({title: 'output management'})
+    ],
+    output: {
+        filename: '[name].bundle.js',
+        path: path.resolve(__dirname, 'dist')
     }
-
 };
