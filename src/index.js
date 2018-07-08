@@ -1,5 +1,7 @@
 import _ from 'lodash';
 import printMe from './print';
+import './style.css';
+import {cube} from './math';
 
 /**
  * Creare a new div with text in it
@@ -7,19 +9,21 @@ import printMe from './print';
  * @param none
  */
 function component() {
-    var element = document.createElement('div');
-    var btn = document.createElement('button');
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
-
-    btn.innerHTML = 'Click me and check console';
-    btn.onclick = printMe;
-
-    element.appendChild(btn);
-
-
+    var element = document.createElement('pre');
+   
+    element.innerHTML = ['Hellow webpack!', ' 5 cubed is equal to ' +  cube(5)].join('\n\n');
+ 
     return element;
 }
 
-document.body.appendChild(component());
+let element = component();
+document.body.appendChild(element);
+
+
+if(module.hot){
+    module.hot.accept('./print.js', function(){
+        
+        console.log('Accepting the updated printMe module');
+      
+    });
+}
